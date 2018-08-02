@@ -569,7 +569,7 @@ open class DrawerController: UIViewController, UIGestureRecognizerDelegate {
         }
         
         /// User Interaction
-        view.isUserInteractionEnabled = false
+        //view.isUserInteractionEnabled = false
     }
     private func didBeginAnimate(side: DrawerSide) {
         /// Golden-Path
